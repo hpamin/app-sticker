@@ -27,7 +27,7 @@ const TabSafeAreaWrapper: React.FC<TabSafeAreaWrapperProps> = (
         <ScrollView
             contentContainerStyle={[styles.scrollContentContainer, style]}
             showsVerticalScrollIndicator={false}
-            keyboardShouldPersistTaps="handled"
+            // keyboardShouldPersistTaps="handled"
         >
             {children}
         </ScrollView>

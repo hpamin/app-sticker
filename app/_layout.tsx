@@ -50,12 +50,8 @@ export default function RootLayout() {
                                 }
                             }}
                         >
-                            <Stack.Screen
-                                name="auth/signin"
-                                options={{presentation: "modal"}}/>
-                            <Stack.Screen
-                                name="auth/signup"
-                                options={{presentation: "modal"}}/>
+                            <Stack.Screen name="auth/signin"/>
+                            <Stack.Screen name="auth/signup"/>
                             <Stack.Screen name="(tabs)"/>
                             <Stack.Screen name="stickers/[id]/index"/>
                             <Stack.Screen

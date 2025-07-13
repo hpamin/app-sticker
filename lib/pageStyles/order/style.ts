@@ -105,6 +105,7 @@ export const styles = StyleSheet.create({
 
 export const orderStyles = StyleSheet.create({
     container: {
+        flexGrow: 1,
         padding: 16,
         position: 'relative',
     },

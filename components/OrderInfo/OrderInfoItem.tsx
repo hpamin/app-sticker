@@ -172,6 +172,7 @@ const styles = StyleSheet.create({
     },
     detailsOrder: {
         flexDirection: 'row',
+        flexWrap: "wrap",
         justifyContent: 'space-between',
         alignItems: 'center'
     },
