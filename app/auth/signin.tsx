@@ -35,8 +35,8 @@ const SignIn = () => {
     } = useForm<signInProps>({
         resolver: yupResolver(schema),
         defaultValues: {
-            email: "mmd@gmail.com",
-            password: "123456789",
+            email: "",
+            password: "",
         },
         mode: "onChange",
     });
