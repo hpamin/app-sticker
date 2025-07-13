@@ -10,8 +10,8 @@ const OrderInfoItem = (
         data
     }: { data: OrderSticker }
 ) => {
-    const theme = useTheme();
-    const router = useRouter();
+    const theme = useTheme()
+    const router = useRouter()
 
     const {
         id,

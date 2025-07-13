@@ -13,8 +13,8 @@ const StarRating = (
         justNumber = false,
     }: StarRatingProps
 ) => {
-    rating = rating ?? 0;
-    const theme = useTheme();
+    rating = rating ?? 0
+    const theme = useTheme()
     const fullStars = Math.floor(rating)
     const halfStar = rating - fullStars > 0
     const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)

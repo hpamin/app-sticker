@@ -12,7 +12,7 @@ const SearchCardItem = (
     }: SearchCardItemProps
 ) => {
 
-    const theme = useTheme();
+    const theme = useTheme()
     const {
         id,
         image,

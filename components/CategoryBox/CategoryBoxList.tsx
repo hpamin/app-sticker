@@ -10,9 +10,9 @@ import CategoryItem from "@/components/CategoryBox/CategoryBoxItem";
 
 const CategoryList = () => {
 
-    const {width} = Dimensions.get('screen');
-    const CATEGORY_ITEM_WIDTH = 160;
-    const numColumns = Math.floor(width / CATEGORY_ITEM_WIDTH);
+    const {width} = Dimensions.get('screen')
+    const CATEGORY_ITEM_WIDTH = 160
+    const numColumns = Math.floor(width / CATEGORY_ITEM_WIDTH)
 
     const {
         error,

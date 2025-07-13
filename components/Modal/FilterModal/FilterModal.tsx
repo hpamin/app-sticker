@@ -22,15 +22,15 @@ const FilterModal = (
         toggleBestSeller,
     }: FilterModalProps
 ) => {
-    const bottomSheetModalRef = useRef<BottomSheetModal>(null);
-    const theme = useTheme();
-    const snapPoints = useMemo(() => ['50%', '70%'], []);
+    const bottomSheetModalRef = useRef<BottomSheetModal>(null)
+    const theme = useTheme()
+    const snapPoints = useMemo(() => ['50%', '70%'], [])
 
     useEffect(() => {
         if (visible) {
-            bottomSheetModalRef.current?.present();
+            bottomSheetModalRef.current?.present()
         } else {
-            bottomSheetModalRef.current?.close();
+            bottomSheetModalRef.current?.close()
         }
     }, [visible]);
 

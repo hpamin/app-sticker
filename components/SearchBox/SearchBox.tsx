@@ -17,21 +17,21 @@ const SearchBox = forwardRef(
         ref,
     ) => {
 
-        const theme = useTheme();
+        const theme = useTheme()
         const onChangeSearch = (query: string) => {
-            onSearchQueryChange?.(query);
+            onSearchQueryChange?.(query)
         };
 
         const isDark = theme.dark;
 
         const inputBackgroundColor = isDark
             ? 'rgb(35, 35, 42)'
-            : 'rgb(245, 243, 252)';
+            : 'rgb(245, 243, 252)'
 
         const inputTextColor = theme.colors.onSurface;
         const placeholderColor = isDark
             ? 'rgba(228, 225, 230, 0.38)'
-            : 'rgba(27, 27, 31, 0.38)';
+            : 'rgba(27, 27, 31, 0.38)'
 
         return (
             <Searchbar

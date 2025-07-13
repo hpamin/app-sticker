@@ -21,7 +21,7 @@ const TabSafeAreaWrapper: React.FC<TabSafeAreaWrapperProps> = (
         keyboardAvoiding = false,
     }
 ) => {
-    const theme = useTheme();
+    const theme = useTheme()
 
     const content = scroll ? (
         <ScrollView

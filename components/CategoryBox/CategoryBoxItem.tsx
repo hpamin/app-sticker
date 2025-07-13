@@ -11,9 +11,9 @@ const CategoryItem = (
         isSelected = false
     }: CategoryProps
 ) => {
-    const theme = useTheme();
-    const styles = makeStyles(theme);
-    const scaleValue = new Animated.Value(1);
+    const theme = useTheme()
+    const styles = makeStyles(theme)
+    const scaleValue = new Animated.Value(1)
 
     const handlePressIn = () => {
         Animated.spring(scaleValue, {

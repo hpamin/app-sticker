@@ -14,7 +14,7 @@ const SnackbarPortal = (
         onActionPress,
     }: SnackbarPortalProps
 ) => {
-    const insets = useSafeAreaInsets();
+    const insets = useSafeAreaInsets()
 
     return (
         <Portal>

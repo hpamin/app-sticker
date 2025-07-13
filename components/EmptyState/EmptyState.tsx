@@ -10,8 +10,8 @@ const EmptyState = (
         message,
         action
     }: EmptyStateProps) => {
-    const theme = useTheme();
-    const color = theme.dark ? theme.colors.onSurfaceDisabled : theme.colors.onSurfaceDisabled;
+    const theme = useTheme()
+    const color = theme.dark ? theme.colors.onSurfaceDisabled : theme.colors.onSurfaceDisabled
 
     return (
         <View style={styles.emptyState}>
