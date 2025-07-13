@@ -1,8 +1,3 @@
-```markdown
-<!-- Language Switch -->
-[🇬🇧 English](#english) | [🇩🇪 Deutsch](#deutsch)
-
----
 
 ## 🇬🇧 English
 
@@ -72,5 +67,4 @@ git clone https://github.com/your-username/sticker-order-app.git
 cd sticker-order-app
 npm install
 npx expo start
-```
 ```
