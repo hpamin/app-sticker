@@ -1,51 +1,76 @@
-# Welcome to your Expo app 👋
+```markdown
+<!-- Language Switch -->
+[🇬🇧 English](#english) | [🇩🇪 Deutsch](#deutsch)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 🇬🇧 English
 
-1. Install dependencies
+### 📦 Sticker Order App
 
-   ```bash
-   npm install
-   ```
+A mobile app built with **React Native** and **Expo** for ordering custom stickers.
 
-2. Start the app
+### ✨ Features
 
-   ```bash
-   npx expo start
-   ```
+- 📄 Sticker order form with validation  
+- 🔢 Dynamic price calculation (size, material, quantity, express)  
+- ✅ Form validation with **Yup** + **React Hook Form**  
+- 💾 User data stored locally via **AsyncStorage**  
+- 🎨 Light/Dark mode UI using **React Native Paper**  
+- 📱 Responsive layout with keyboard handling  
+- 📉 Bottom sheets with `@gorhom/bottom-sheet`  
+- 🔽 Dropdowns via `react-native-element-dropdown`  
 
-In the output, you'll find options to open the app in a
+### 🛠️ Technologies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native  
+- Expo  
+- React Hook Form + Yup  
+- React Native Paper  
+- Expo Router  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 🚀 Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/sticker-order-app.git
+cd sticker-order-app
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🇩🇪 Deutsch
 
-To learn more about developing your project with Expo, look at the following resources:
+### 📦 Aufkleber-Bestell-App
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Eine mobile App, entwickelt mit **React Native** und **Expo**, um individuelle Aufkleber zu bestellen.
 
-## Join the community
+### ✨ Funktionen
 
-Join our community of developers creating universal apps.
+- 📄 Bestellformular mit Validierung
+- 🔢 Dynamische Preisberechnung (Größe, Material, Menge, Express)
+- ✅ Formularvalidierung mit **Yup** + **React Hook Form**
+- 💾 Lokale Speicherung von Benutzerdaten mit **AsyncStorage**
+- 🎨 Hell-/Dunkelmodus-UI mit **React Native Paper**
+- 📱 Responsives Layout mit optimierter Tastatursteuerung
+- 📉 Bottom Sheets mit `@gorhom/bottom-sheet`
+- 🔽 Dropdown-Menüs via `react-native-element-dropdown`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# app-sticker
+### 🛠️ Technologien
+
+- React Native
+- Expo
+- React Hook Form + Yup
+- React Native Paper
+- Expo Router
+
+### 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/sticker-order-app.git
+cd sticker-order-app
+npm install
+npx expo start
+```
+```
