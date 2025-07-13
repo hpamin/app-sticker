@@ -15,7 +15,9 @@ const useUserStorage = () => {
         }: UserInfo) => {
         try {
             const allUsers = await AsyncStorage.getItem("users")
-            const users: User[] = allUsers ? JSON.parse(allUsers) : []
+            const users: User[] = allUsers
+                ? JSON.parse(allUsers)
+                : []
             const existingUser = users?.find(user => user.email === email)
             if (existingUser) {
                 Alert.alert("User already exists")
@@ -48,7 +50,9 @@ const useUserStorage = () => {
     ) => {
         try {
             const allUsers = await AsyncStorage.getItem("users")
-            const users: User[] = allUsers ? JSON.parse(allUsers) : []
+            const users: User[] = allUsers
+                ? JSON.parse(allUsers)
+                : []
             const user = users?.find(user => user.email === email && user.password === password)
 
             if (!user) {
@@ -75,7 +79,9 @@ const useUserStorage = () => {
             }
             const currentUser: User = JSON.parse(currentUserData)
             const allUsers = await AsyncStorage.getItem("users")
-            const users: User[] = allUsers ? JSON.parse(allUsers) : []
+            const users: User[] = allUsers
+                ? JSON.parse(allUsers)
+                : []
             const updatedUser: User = {...currentUser, ...updatedData}
 
             const updatedUsers = users.map((user) => user.id === currentUser.id ? updatedUser : user)
@@ -91,7 +97,9 @@ const useUserStorage = () => {
 
     const getCurrentUser = async () => {
         const userData = await AsyncStorage.getItem("currentUser");
-        return userData ? JSON.parse(userData) : null;
+        return userData
+            ? JSON.parse(userData)
+            : null;
     }
 
     return {
